@@ -1,0 +1,150 @@
+		* {
+			text-shadow: 1px .75px black;
+		}
+		
+
+		#cabeza {
+			font-family: @MingLiU_HKSCS-ExtB;
+			font-size: 55px;
+			letter-spacing: 7px;
+			color: red;
+			float: left;
+			position: relative;
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: 20%;
+			text-decoration: underline;
+			text-shadow: 4px 4px black;
+		}
+		#navegadorv {
+		 	width: 280px;
+		 	list-style: none;
+			margin: 0px;
+			padding: 0;
+			border: 1px solid black;
+			border-bottom: none;
+			position: fixed;
+			float: left;
+		}
+		#Elemento {
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+			background: #1E7286;
+		}
+		#Elemento:hover {
+				background: #1E3E86;
+		}
+		#Elementoa{
+			font-family: DejaVu Math TeX Gyre;
+			font-size: 1.75em;
+			padding: .2em 0 .2em .5em;
+			display: block;
+			text-decoration: none;
+			color: white;
+		}
+		header {
+			position: fixed;
+			width: 99.2%; 
+			background-color: green; 
+			border: 5px solid gold;
+		}
+		body {
+			font-family: DejaVu Math TeX Gyre;
+			margin: 0 auto; 
+			padding-top: 0px;
+			background-color: #C5F7C2;
+		}
+		nav {
+			float: left;
+		}
+		#margen1, #margen2 {
+			background-color: red;
+			width: 150px; 
+			height: 75.44px;
+		}
+		#margen1 {
+			position: fixed; 
+			float: left;
+		}
+		#margen2 {
+			float: right;
+		}
+		section {
+			margin-left: 300px;
+			margin-top: 0px;
+		}
+		#br1, #hr1 {
+			clear: both;
+		}
+		#cataesp {
+			border: 1px solid red;
+			background-color: red;
+			text-decoration: none;
+			margin-bottom: 3px;
+			float: left;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		#referencias {
+			font-family: DejaVu Math TeX Gyre;
+			font-size: 1em;
+			position: fixed;
+			clear: both;
+			margin-top: 350px;
+			border: 5px double #1E7286;
+			width: 270px;
+		}
+		#not {
+			background-color: #ACF5A7;
+		}
+		#not:hover {
+			background-color: #A7F5C9;
+		}
+
+				#texts {
+			font-size: 8pt;
+			background-color: red;
+			text-decoration: none;
+			margin-top: 40px;
+			width: 190px;
+			letter-spacing: 1px;
+		}
+		#textt {
+			font-size: 8pt;
+			background-color: red;
+			text-decoration: none;
+			margin-top: 40px;
+			width: 190px;
+			letter-spacing: 1px;
+		}
+				#first {
+			background: url(./Imagenes/lunas.jpg); 
+			width: 500px; 
+			height: 250px; 
+			float: left; 
+			border: 2px solid red;
+		}
+		#second {
+			background: url(./Imagenes/andromeda.jpg); 
+			width: 250px; 
+			height: 125px; 
+			float: right; 
+			margin-right: 17%; 
+			border: 1px solid red;
+		}
+		#third {
+		background: url(./Imagenes/cositas.png); 
+			width: 250px; 
+			height: 125px; 
+			float: right; 
+			margin-right: 17%; 
+			border: 1px solid red;
+		}
+		#textf {
+			background-color: red;
+			width: 300px;
+			margin-top: 170px;
+			text-decoration: none;
+		}

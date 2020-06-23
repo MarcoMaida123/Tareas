@@ -5,6 +5,8 @@ const express = require('express');
 const port = process.env.PORT || 3000;
 // crea el objeto app
 const app = express();
+// agregamos esta línea
+app.use(express.static('public'));
 // la app responde con Hello world
 // a todas las peticiones GET a /
 app.get('/', (req, res) => {

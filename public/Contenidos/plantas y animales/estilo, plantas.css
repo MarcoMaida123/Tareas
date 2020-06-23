@@ -1,0 +1,115 @@
+* {
+			text-shadow: 1px .75px black;
+		}
+		
+
+		#cabeza {
+			font-family: @MingLiU_HKSCS-ExtB;
+			font-size: 55px;
+			letter-spacing: 7px;
+			color: red;
+			float: left;
+			position: relative;
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: 20%;
+			text-decoration: underline;
+			text-shadow: 4px 4px black;
+		}
+		#navegadorv {
+		 	width: 280px;
+		 	list-style: none;
+			margin: 0px;
+			padding: 0;
+			border: 1px solid black;
+			border-bottom: none;
+			position: fixed;
+			float: left;
+		}
+		#Elemento {
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+			background: #1E7286;
+		}
+		#Elementoa{
+			font-family: DejaVu Math TeX Gyre;
+			font-size: 1.75em;
+			padding: .2em 0 .2em .5em;
+			display: block;
+			text-decoration: none;
+			color: white;
+		}
+		header {
+			position: fixed;
+			width: 99.2%; 
+			background-color: green; 
+			border: 5px solid gold;
+		}
+		body {
+			font-family: DejaVu Math TeX Gyre;
+			margin: 0 auto; 
+			padding-top: 0px;
+			background-color: #C5F7C2;
+		}
+		nav {
+			float: left;
+		}
+		#margen1, #margen2 {
+			background-color: red;
+			width: 150px; 
+			height: 75.44px;
+		}
+		#margen1 {
+			position: fixed; 
+			float: left;
+		}
+		#margen2 {
+			float: right;
+		}
+		section {
+			margin-left: 300px;
+			margin-top: 0px;
+		}
+		#br1, #hr1 {
+			clear: both;
+		}
+		#cataesp {
+			border: 1px solid red;
+			background-color: red;
+			text-decoration: none;
+			margin-bottom: 3px;
+			float: left;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		#referencias {
+			font-family: DejaVu Math TeX Gyre;
+			font-size: 1em;
+			position: fixed;
+			clear: both;
+			margin-top: 350px;
+			border: 5px double #1E7286;
+			width: 270px;
+		}
+		#not {
+			background-color: #ACF5A7;
+		}
+				#not:hover {
+			background-color: #A7F5C9;
+		}
+				#Elemento:hover {
+				background: #1E3E86;
+		}
+		#titulito {
+			margin-left: 15%;
+			font-size: 3em;
+			margin-bottom: 0px;
+			margin-top: 0;
+			letter-spacing: 10px;
+			text-decoration: underline;
+			color: red;
+			text-decoration: 2px 1.5px black;
+			padding-bottom: 10px;
+		}
